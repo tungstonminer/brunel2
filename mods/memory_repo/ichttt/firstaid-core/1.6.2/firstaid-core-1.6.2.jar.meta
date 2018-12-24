@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Maven-Artifact: ichttt:firstaid-core:1.6.2
+FMLCorePlugin: ichttt.mods.firstaid.common.asm.FirstAidCoremod
+
+Name: ichttt/mods/firstaid/common/asm/FirstAidCoremod.class
+SHA-256-Digest: 8yDZnTXcuXFxIQ790elq2NLokJ444cUaP0ix48EkhD8=
+
+Name: ichttt/mods/firstaid/common/asm/PotionTransformer.class
+SHA-256-Digest: 7ZgvVtFpF96RKBAhsF9PYu3YTu5RbQPtRi9vglYp9TU=
+
+Name: ichttt/mods/firstaid/common/asm/framework/ASMUtils.class
+SHA-256-Digest: kiHCJE34G8xlUoencIY88VmVh6MXajyYZXkWLMf7Ju0=
+
+Name: ichttt/mods/firstaid/common/asm/framework/PatchFailedException.c
+ lass
+SHA-256-Digest: eh6uVXHFfR+d/64mCaF4deDueEj20JdN8lH8Bg+BeOU=
+
+Name: ichttt/mods/firstaid/common/asm/framework/AbstractMethodTransfor
+ mer.class
+SHA-256-Digest: RzuNftgus1zG0OtB6aPSSfALB0So5+5a6QVNB4/YH8Y=
+
+Name: ichttt/mods/firstaid/common/asm/CoreModContainer.class
+SHA-256-Digest: j0STFUN2Y1p8dDDvDM/29lYIGdirogjuE7qkAK4PrQI=
+

@@ -1,0 +1,72 @@
+[
+    { "passive": true, "result": "default" },
+    { "dimension": -1, "result": "default" },
+    { "dimension": 1, "result": "default" },
+    { "dimension": 7, "result": "default" },
+    { "biome": 70, "result": "default" },
+
+    { "mob": "creeper", "maxlight": 7, "mintime": 13000, "weather": "thunder", "random": 0.5, "result": "allow" },
+    { "mob": "enderman", "weather": "rain", "weather": "thunder", "result": "deny" },
+    { "mob": "enderman", "dim": 0, "isnotcolliding": true, "maxlight": 10, "random": 0.15, "result": "allow" },
+    {
+        "mob": "spider",
+
+        "biometype": "FOREST",
+        "dimension": 0,
+        "isnotcolliding": true,
+        "maxlight": 4,
+        "mintime": 12000,
+        "random": 0.1,
+
+        "result": "allow"
+    },
+    {
+        "mob": "slime",
+
+        "biometype": "SWAMP",
+        "block": "ore:grass",
+        "isnotcolliding": true,
+        "seesky": true,
+        "random": 0.1,
+
+        "result": "allow"
+    },
+    {
+        "mob": "slime",
+
+        "biometype": "SWAMP",
+        "block": "ore:grass",
+        "isnotcolliding": true,
+        "weather": "rain",
+        "weather": "thunder",
+        "seesky": true,
+        "random": 0.3,
+
+        "result": "allow"
+    },
+    { "mob": "witch", "isnotcolliding": true, "structure": "temple", "result": "allow" },
+    { "mob": "witch", "result": "deny" },
+    {
+        "mob": "zombie_villager",
+        "armorhelmet": "minecraft:leather_helmet",
+
+        "biome": "Wasteland",
+        "isnotcolliding": true,
+        "minlight": 0,
+        "maxlight": 15,
+
+        "result": "allow"
+    },
+    {
+        "hostile": true,
+
+        "block": "ore:stone",
+        "dimension": 0,
+        "isnotcolliding": true,
+        "maxlight": 0,
+        "seesky": false,
+
+        "result": "allow"
+    },
+    { "result": "deny" }
+]

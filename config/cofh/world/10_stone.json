@@ -1,0 +1,201 @@
+{
+    "populate": {
+        "andesite": {
+            "enabled": true,
+            "generator": {
+                "block": { "name": "stone", "metadata": 5 },
+                "material": [ "minecraft:stone" ],
+                "type": "plate",
+                "radius": 15,
+                "sizeVariance": 5,
+                "height": 3
+            },
+            "chunk-chance": 4,
+            "cluster-count": 1,
+            "distribution": "uniform",
+            "min-height": 1,
+            "max-height": 48,
+
+            "biome": {
+                "restriction": "blacklist",
+                "value": [
+                    { "type": "dictionary", "entry": [ "HOT" ] },
+                    { "type": "dictionary", "entry": [ "COLD" ] }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [ -1, 1 ]
+            }
+        },
+
+        "diorite": {
+            "enabled": true,
+            "generator": {
+                "block": { "name": "stone", "metadata": 3 },
+                "material": [ "minecraft:stone" ],
+                "type": "plate",
+                "radius": 15,
+                "sizeVariance": 5,
+                "height": 3
+            },
+            "chunk-chance": 4,
+            "cluster-count": 1,
+            "distribution": "uniform",
+            "min-height": 1,
+            "max-height": 48,
+
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    { "type": "dictionary", "entry": [ "COLD" ] }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [ -1, 1 ]
+            }
+        },
+
+        "granite": {
+            "enabled": true,
+            "generator": {
+                "block": { "name": "stone", "metadata": 1 },
+                "material": [ "minecraft:stone" ],
+                "type": "plate",
+                "radius": 15,
+                "sizeVariance": 5,
+                "height": 3
+            },
+            "chunk-chance": 4,
+            "cluster-count": 1,
+            "distribution": "uniform",
+            "min-height": 1,
+            "max-height": 48,
+
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    { "type": "dictionary", "entry": [ "HOT" ] }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [ -1, 1 ]
+            }
+        },
+
+        "chalk": {
+            "enabled": true,
+            "generator": {
+                "block": "earthworks:block_chalk",
+                "material": [ "minecraft:sand", "minecraft:stone" ],
+                "type": "plate",
+                "radius": 7,
+                "height": 1,
+                "slim": true
+            },
+            "chunk-chance": 4,
+            "cluster-count": 1,
+            "distribution": "surface",
+            "follow-terrain": true,
+
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    { "type": "dictionary", "entry": [ "BEACH" ] },
+                    { "type": "dictionary", "entry": [ "OCEAN" ] },
+                    { "type": "dictionary", "entry": [ "RIVER" ] }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [ -1, 1 ]
+            }
+        },
+
+        "slate": {
+            "enabled": true,
+            "generator": {
+                "block": "earthworks:block_slate",
+                "material": [ "minecraft:gravel", "minecraft:stone" ],
+                "type": "plate",
+                "radius": 7,
+                "height": 1,
+                "slim": true
+            },
+            "chunk-chance": 12,
+            "cluster-count": 1,
+            "distribution": "surface",
+            "follow-terrain": true,
+
+            "biome": {
+                "restriction": "blacklist",
+                "value": [
+                    { "type": "dictionary", "entry": [ "OCEAN" ] },
+                    { "type": "dictionary", "entry": [ "RIVER" ] }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [ -1, 1 ]
+            }
+        },
+
+        "green-slate": {
+            "enabled": true,
+            "generator": {
+                "block": "earthworks:block_slate_green",
+                "material": [ "minecraft:gravel", "minecraft:stone" ],
+                "type": "plate",
+                "radius": 7,
+                "height": 1,
+                "slim": true
+            },
+            "chunk-chance": 12,
+            "cluster-count": 1,
+            "distribution": "surface",
+            "follow-terrain": true,
+
+            "biome": {
+                "restriction": "blacklist",
+                "value": [
+                    { "type": "dictionary", "entry": [ "OCEAN" ] },
+                    { "type": "dictionary", "entry": [ "RIVER" ] }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [ -1, 1 ]
+            }
+        },
+
+        "purple-slate": {
+            "enabled": true,
+            "generator": {
+                "block": "earthworks:block_slate_purple",
+                "material": [ "minecraft:gravel", "minecraft:stone" ],
+                "type": "plate",
+                "radius": 7,
+                "height": 1,
+                "slim": true
+            },
+            "chunk-chance": 12,
+            "cluster-count": 1,
+            "distribution": "surface",
+            "follow-terrain": true,
+
+            "biome": {
+                "restriction": "blacklist",
+                "value": [
+                    { "type": "dictionary", "entry": [ "OCEAN" ] },
+                    { "type": "dictionary", "entry": [ "RIVER" ] }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [ -1, 1 ]
+            }
+        }
+    }
+}
