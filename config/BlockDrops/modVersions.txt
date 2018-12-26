@@ -1,5 +1,4 @@
 {
-  "journeymapdefaults": "1.12-0.0.2",
   "firstaidcore": "1.0.0",
   "blockdrops": "1.4.0",
   "binniecore": "2.5.1.184",
