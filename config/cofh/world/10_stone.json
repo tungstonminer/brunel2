@@ -196,6 +196,60 @@
                 "restriction": "blacklist",
                 "value": [ -1, 1 ]
             }
+        },
+
+        "limestone": {
+            "enabled": true,
+            "generator": {
+                "block": { "name": "chisel:limestone2", "metadata": 7 },
+                "material": [ "minecraft:stone" ],
+                "type": "plate",
+                "radius": 20,
+                "sizeVariance": 10,
+                "height": 1
+            },
+            "chunk-chance": 8,
+            "cluster-count": 1,
+            "distribution": "uniform",
+            "min-height": 48,
+            "max-height": 80,
+
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    { "type": "dictionary", "entry": [ "PLAINS" ] }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [ -1, 1 ]
+            }
+        },
+
+        "marble": {
+            "enabled": true,
+            "generator": {
+                "block": { "name": "chisel:marble2", "metadata": 7 },
+                "material": [ "minecraft:stone" ],
+                "type": "cluster",
+                "cluster-size": 128
+            },
+            "chunk-chance": 2,
+            "cluster-count": 1,
+            "distribution": "uniform",
+            "min-height": 96,
+            "max-height": 256,
+
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    { "type": "dictionary", "entry": [ "MOUNTAIN" ] }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [ -1, 1 ]
+            }
         }
     }
 }
