@@ -123,6 +123,7 @@
   "tinkersjei": "1.0",
   "spiceoflife": "1.3.12",
   "baseminerals": "2.5.0-beta6",
+  "dynmapblockscan": "3.0-beta-1-22",
   "parachutemod": "1.7.4",
   "betterfoliage": "2.2.0",
   "littletiles": "1.5.0",
