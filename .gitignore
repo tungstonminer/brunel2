@@ -4,6 +4,7 @@
 .ReAuth.cfg
 .mixin.out/
 backups/
+config/XaeroWaypoints
 config/chiselsandbits_clipboard.cfg
 config/jei/worldSettings.cfg
 crash-reports/

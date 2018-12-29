@@ -33,4 +33,4 @@ Here's a complete list:
 ![Materials and You--Armory Addendum](item:conarm:book)
 
 ### ViesCraft
-![The 'Vies' Craft, vol.1](item:vc:guidebook_main)
+![The 'Vies' Craft, vol.1](item:vc:item_guidebook_main)

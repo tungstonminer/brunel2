@@ -46,7 +46,6 @@
   "littletilescore": "1.0.0",
   "projectred-core": "4.9.1.92",
   "modernmetals": "2.5.0-beta6",
-  "cathedral": "1.12.2-1.9.7i",
   "projectred-transmission": "4.9.1.92",
   "ceramics": "1.12-1.3.6",
   "FML": "8.0.99.99",
@@ -92,7 +91,6 @@
   "quickleafdecay": "1.2.4",
   "wearablebackpacks": "3.1.3",
   "rtfm": "1.0.1.4",
-  "antiqueatlas": "4.4.9",
   "minecraft": "1.12.2",
   "tconstruct": "1.12.2-2.11.0.106",
   "earthworks": "1.3.4.3",
@@ -110,6 +108,7 @@
   "com.elytradev.movingworld.common.asm.coremod": "",
   "justenoughpetroleum": "0.1",
   "mantle": "1.12-1.3.3.39",
+  "xaerominimap": "1.15.8",
   "gravestone": "1.10.1",
   "keywizard": "1.12.1.5.2",
   "betterplacement": "1.0.0-1",
@@ -120,7 +119,6 @@
   "worldstripper": "1.5.1-1.12.2",
   "infinitylib": "1.12.2-1.12.0",
   "minecraftmultipartcbe": "2.6.0.79",
-  "antiqueatlasoverlay": "1.2",
   "foamfix": "0.10.3-1.12.2",
   "tinkersjei": "1.0",
   "spiceoflife": "1.3.12",
@@ -128,6 +126,5 @@
   "parachutemod": "1.7.4",
   "betterfoliage": "2.2.0",
   "littletiles": "1.5.0",
-  "forestry": "5.8.2.378",
-  "examplemod": "1.0"
+  "forestry": "5.8.2.378"
 }
