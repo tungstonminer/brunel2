@@ -8,11 +8,11 @@ minimap:true
 caveMaps:false
 caveZoom:false
 showPlayers:true
-showHostile:true
-showMobs:true
-showItems:true
-showOther:true
-showOtherTeam:true
+showHostile:false
+showMobs:false
+showItems:false
+showOther:false
+showOtherTeam:false
 showWaypoints:true
 showIngameWaypoints:false
 displayRedstone:true
@@ -21,7 +21,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:true
-zoom:2
+zoom:0
 mapSize:-1
 entityAmount:1
 chunkGrid:-5
