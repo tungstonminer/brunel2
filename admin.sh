@@ -10,7 +10,7 @@ difficulty=2
 enable-command-block=false
 enable-query=false
 enable-rcon=false
-force-gamemode=false
+force-gamemode=true
 gamemode=0
 generate-structures=true
 generator-settings=
@@ -107,10 +107,6 @@ function command-backup {
     popd &>/dev/null
 }
 
-function command-delete {
-    rm -rf "server"
-}
-
 function command-create {
     if [[ -d "server" ]]; then
         echo "Server $SERVER_NAME already exists. Skipping."
@@ -148,6 +144,14 @@ function command-create {
     popd >/dev/null
 }
 
+function command-delete {
+    rm -rf "server"
+}
+
+function command-exec {
+    echo $* >> server/server.stdin
+}
+
 function command-restart {
     command-stop
     sleep 2
@@ -160,11 +164,13 @@ function command-start {
 
     PID=$(find-running-script-pid)
     if [[ "$PID" != "" ]]; then
+        echo "Script already running..."
         exit 0
     fi
 
     PID=$(find-running-server-pid)
     if [[ "$PID" != "" ]]; then
+        "Server already running..."
         exit 0
     fi
 
@@ -271,6 +277,10 @@ function command-stop {
     fi
 }
 
+function command-tail {
+    tail -f server/logs/server.log
+}
+
 # Script ##############################################################################################################
 
 COMMAND="$1"; shift
@@ -283,6 +293,7 @@ case $COMMAND in
     client)     command-installer;;
     create)     command-create;;
     delete)     command-delete;;
+    exec)       command-exec $*;;
     restart)    command-restart;;
     script-pid) find-running-script-pid;;
     server-pid) find-running-server-pid;;
@@ -290,6 +301,7 @@ case $COMMAND in
     start)      command-start;;
     status)     command-status;;
     stop)       command-stop;;
+    tail)       command-tail;;
     *)          cancel "Unrecognized command: $COMMAND"
 esac
 
