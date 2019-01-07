@@ -150,6 +150,7 @@ function command-delete {
 
 function command-exec {
     echo $* >> server/server.stdin
+    command-tail
 }
 
 function command-restart {
