@@ -14,7 +14,7 @@ showItems:false
 showOther:false
 showOtherTeam:false
 showWaypoints:true
-showIngameWaypoints:false
+showIngameWaypoints:true
 displayRedstone:true
 deathpoints:true
 oldDeathpoints:true
@@ -43,7 +43,7 @@ compassOverWaypoints:true
 showBiome:true
 showEntityHeight:true
 showFlowers:true
-keepWaypointNames:false
+keepWaypointNames:true
 waypointsDistance:0.0
 waypointsDistanceMin:0.0
 waypointTp:tp
