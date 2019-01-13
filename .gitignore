@@ -3,6 +3,7 @@
 .DS_Store
 .ReAuth.cfg
 .mixin.out/
+__pycache__
 backups/
 config/XaeroWaypoints
 config/chiselsandbits_clipboard.cfg

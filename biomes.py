@@ -67,6 +67,7 @@ BIOMES = {
     ],
     "nether": [
         "biomesoplenty:corrupted_sands",
+        "biomesoplenty:fungi_forest",
         "biomesoplenty:phantasmagoric_inferno",
         "biomesoplenty:undergarden",
         "biomesoplenty:visceral_heap",

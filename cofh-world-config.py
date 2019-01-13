@@ -2,7 +2,7 @@
 import json
 import hashlib
 
-from .biomes import BIOMES
+from biomes import BIOMES
 from enum import Enum
 
 class Altitude(Enum):
@@ -222,7 +222,7 @@ uranium_vein = Vein("uranium", uranium_ore.weighted(65), lead_ore.weighted(35))
 
 # Nether Veins
 ardite_vein = Vein("ardite", netherrack.weighted(50), ardite_ore.weighted(50))
-cobalt_vein = Vein("ardite", netherrack.weighted(70), cobalt_ore.weighted(30))
+cobalt_vein = Vein("cobalt", netherrack.weighted(70), cobalt_ore.weighted(30))
 quartzite_vein = Vein("quartzite", quartz_ore.weighted(60), netherrack.weighted(40))
 sulfur_vein = Vein("sulfur", sulfur_ore.weighted(50), stone.weighted(50))
 

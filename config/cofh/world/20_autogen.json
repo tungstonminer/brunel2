@@ -2613,7 +2613,101 @@
                 ]
             }
         },
-        "ARDITE-NETHER_LOWER-0d0575c57efbe414a080ce4835240b22": {
+        "ARDITE-NETHER_LOWER-b1bca2d351cfdb9b8035d97141b661d6": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "minecraft:netherrack",
+                        "weight": 50
+                    },
+                    {
+                        "name": "tconstruct:ore",
+                        "metadata": 1,
+                        "weight": 50
+                    }
+                ],
+                "material": {
+                    "name": "netherrack",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 4
+            },
+            "chunk-chance": 1,
+            "cluster-count": 36,
+            "distribution": "uniform",
+            "min-height": 32,
+            "max-height": 80,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "id",
+                    "entry": [
+                        "biomesoplenty:corrupted_sands",
+                        "biomesoplenty:fungi_forest",
+                        "biomesoplenty:phantasmagoric_inferno",
+                        "biomesoplenty:undergarden",
+                        "biomesoplenty:visceral_heap",
+                        "minecraft:hell"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -1
+                ]
+            }
+        },
+        "ARDITE-NETHER_UPPER-b1bca2d351cfdb9b8035d97141b661d6": {
+            "enabled": true,
+            "generator": {
+                "block": [
+                    {
+                        "name": "minecraft:netherrack",
+                        "weight": 50
+                    },
+                    {
+                        "name": "tconstruct:ore",
+                        "metadata": 1,
+                        "weight": 50
+                    }
+                ],
+                "material": {
+                    "name": "netherrack",
+                    "metadata": -1
+                },
+                "type": "cluster",
+                "cluster-size": 2
+            },
+            "chunk-chance": 1,
+            "cluster-count": 18,
+            "distribution": "uniform",
+            "min-height": 80,
+            "max-height": 128,
+            "biome": {
+                "restriction": "whitelist",
+                "value": {
+                    "type": "id",
+                    "entry": [
+                        "biomesoplenty:corrupted_sands",
+                        "biomesoplenty:fungi_forest",
+                        "biomesoplenty:phantasmagoric_inferno",
+                        "biomesoplenty:undergarden",
+                        "biomesoplenty:visceral_heap",
+                        "minecraft:hell"
+                    ]
+                }
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -1
+                ]
+            }
+        },
+        "COBALT-NETHER_LOWER-b1bca2d351cfdb9b8035d97141b661d6": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2644,6 +2738,7 @@
                     "type": "id",
                     "entry": [
                         "biomesoplenty:corrupted_sands",
+                        "biomesoplenty:fungi_forest",
                         "biomesoplenty:phantasmagoric_inferno",
                         "biomesoplenty:undergarden",
                         "biomesoplenty:visceral_heap",
@@ -2658,7 +2753,7 @@
                 ]
             }
         },
-        "ARDITE-NETHER_UPPER-0d0575c57efbe414a080ce4835240b22": {
+        "COBALT-NETHER_UPPER-b1bca2d351cfdb9b8035d97141b661d6": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2689,6 +2784,7 @@
                     "type": "id",
                     "entry": [
                         "biomesoplenty:corrupted_sands",
+                        "biomesoplenty:fungi_forest",
                         "biomesoplenty:phantasmagoric_inferno",
                         "biomesoplenty:undergarden",
                         "biomesoplenty:visceral_heap",
@@ -2703,7 +2799,7 @@
                 ]
             }
         },
-        "QUARTZITE-NETHER_OCEAN-0d0575c57efbe414a080ce4835240b22": {
+        "QUARTZITE-NETHER_OCEAN-b1bca2d351cfdb9b8035d97141b661d6": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2734,6 +2830,7 @@
                     "type": "id",
                     "entry": [
                         "biomesoplenty:corrupted_sands",
+                        "biomesoplenty:fungi_forest",
                         "biomesoplenty:phantasmagoric_inferno",
                         "biomesoplenty:undergarden",
                         "biomesoplenty:visceral_heap",
@@ -2748,7 +2845,7 @@
                 ]
             }
         },
-        "QUARTZITE-NETHER_LOWER-0d0575c57efbe414a080ce4835240b22": {
+        "QUARTZITE-NETHER_LOWER-b1bca2d351cfdb9b8035d97141b661d6": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2779,6 +2876,7 @@
                     "type": "id",
                     "entry": [
                         "biomesoplenty:corrupted_sands",
+                        "biomesoplenty:fungi_forest",
                         "biomesoplenty:phantasmagoric_inferno",
                         "biomesoplenty:undergarden",
                         "biomesoplenty:visceral_heap",
@@ -2793,7 +2891,7 @@
                 ]
             }
         },
-        "QUARTZITE-NETHER_UPPER-0d0575c57efbe414a080ce4835240b22": {
+        "QUARTZITE-NETHER_UPPER-b1bca2d351cfdb9b8035d97141b661d6": {
             "enabled": true,
             "generator": {
                 "block": [
@@ -2824,6 +2922,7 @@
                     "type": "id",
                     "entry": [
                         "biomesoplenty:corrupted_sands",
+                        "biomesoplenty:fungi_forest",
                         "biomesoplenty:phantasmagoric_inferno",
                         "biomesoplenty:undergarden",
                         "biomesoplenty:visceral_heap",
@@ -2860,10 +2959,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 8
+                "cluster-size": 4
             },
             "chunk-chance": 1,
-            "cluster-count": 7,
+            "cluster-count": 9,
             "distribution": "uniform",
             "min-height": 0,
             "max-height": 12,
@@ -2910,10 +3009,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 8
+                "cluster-size": 4
             },
             "chunk-chance": 1,
-            "cluster-count": 20,
+            "cluster-count": 26,
             "distribution": "uniform",
             "min-height": 13,
             "max-height": 48,
@@ -2960,10 +3059,10 @@
                     "metadata": -1
                 },
                 "type": "cluster",
-                "cluster-size": 4
+                "cluster-size": 2
             },
             "chunk-chance": 1,
-            "cluster-count": 11,
+            "cluster-count": 6,
             "distribution": "uniform",
             "min-height": 49,
             "max-height": 64,
