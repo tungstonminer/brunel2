@@ -129,7 +129,7 @@ function command-create {
     rm -rf mods
     ln -s ../config .
     ln -s ../mods .
-    ls -s ../scripts .
+    ln -s ../scripts .
     echo "eula=true" > eula.txt
 
     mkdir logs
