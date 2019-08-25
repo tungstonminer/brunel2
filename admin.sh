@@ -171,7 +171,7 @@ function command-start {
 
     PID=$(find-running-server-pid)
     if [[ "$PID" != "" ]]; then
-        "Server already running..."
+        echo "Server already running..."
         exit 0
     fi
 
